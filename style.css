@@ -1,0 +1,34 @@
+/*
+
+-CSS = cascading stylesheet
+
+-Anatomia de um seletr:
+
+    Seletor (qual é a area que vou editar) {
+
+    o que estiver dentro das chaves é a propriedade do seletor: valor da propriedade; (sempre ponto virgula no final)
+}
+
+*/
+
+
+}
+
+div {
+    color: rgb(0, 0, 0); /*altera a cor da fonte*/
+    font-family: ; /*altera o tipo da fonte*/
+    font-size: 15px; /*altera o tamanho da fonte*/
+    display: ;
+
+
+}
+
+.destaques {
+    background-color: rgb(255, 0, 0);
+    color: black;
+
+}
+
+
+
+

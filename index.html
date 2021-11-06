@@ -5,40 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ifood</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!--PARTE SUPERIOR DO SITE: LOGO E NOME DO RESTAURANTE -->
-    <header>
-        <div>
-        <figure>
-            <img src="ifoodlogo.jpg" width="15%" height="15%" alt="logo ifood">
-        </figure>
-        <h1>Conheça o melhor sushi do Rio de janeiro.</h1>
-        </div>
+    <header class="cabeçalho">
+        <div class="container">
+            <div class="cabeçalho_logo">
+            <figure>
+                <img src="ifoodlogo.jpg" width="15%" height="15%" alt="logo ifood">
+            </figure>
+            <h1>Conheça o melhor sushi do Rio de janeiro.</h1>
+            </div>
 
-        <div>
-            <img src="japones.jpg" width="40%" height="40%" alt="restaurante Kenzie ifood">
-            <figcaption>Conheça o sushi que ganhou o prêmio de melhor sushi da cidade!</figcaption>
-            
-        </div> 
+            <div class="cabeçalho_sushi">
+                <img src="japones.jpg" width="40%" height="40%" alt="restaurante Kenzie ifood">
+                <figcaption>Conheça o sushi que ganhou o prêmio de melhor sushi da cidade!</figcaption>
+            </div> 
+        </div>
     </header>
 
     <!--ABAIXO DO CABEÇALHO: -->
     <main>
         
-
         <!--SEÇÃO INFORMAÇÕES DO RESTAURANTE-->
-        <section>
-            <div>
-                <h1>Restaurante Kenzie, o melhor do Ifood</h1>
-                <figure>
-                    <img src="restaurante.jpg" width="40%" height="40%" alt="imagem do restaurante Kenzie">
-                    <figcaption>Restaurante Kenzie fica Localizado no Alto da Boa Vista, há mais de 10 anos no mercado</figcaption>
-                </figure>
-                
+        <section class="secaoinforestaurante">
+            <div class="container">
+                <div class="secaoinforestaurante_secao">
+                    <h1 class="secaorestaurante_nomerestaurante">Restaurante Kenzie, o melhor do Ifood</h1>
+                    <figure>
+                        <img src="restaurante.jpg" width="40%" height="40%" alt="imagem do restaurante Kenzie">
+                        <figcaption>Restaurante Kenzie fica Localizado no Alto da Boa Vista, há mais de 10 anos no mercado</figcaption>
+                    </figure> 
+                </div>
             </div>
-
-            <div>
+            <div class="secaoinforestaurante_">
                 <button>  <!--serve para adicionar um botão-->
                     <img src="botao.png" width="15" height="15" alt="botao de busca">
                 </button>
@@ -48,39 +49,41 @@
 
         <!--PRATOS QUENTES EM DESTAQUE-->
         <section>
-            <h2>Destaques</h2>
-            <ul>
-                <li>
-                    <a href=""> <!--tudo o que estiver dentro dessa tag se torna clicavel-->
-                        <figure>
-                            <img src="hamburguer.jpeg" width="30%" height="30%" alt="prato x">
-                            <figcaption>vegano</figcaption>
-                        </figure>
-                        <h3>Hamburguer vegano</h3>
-                        <span>R$ 21,90</span>
-                    </a>
-                </li>
-                <li>
-                    <a href=""> <!--tudo o que estiver dentro dessa tag se torna clicavel-->
-                        <figure>
-                            <img src="sopa.webp" width="30%" height="30%" alt="prato y">
-                            <figcaption>vegano</figcaption>
-                        </figure>
-                        <h3>Sopa de legumes</h3>
-                        <span>R$ 19,90</span>
-                    </a>
-                </li>
-                <li>
-                    <a href=""> <!--tudo o que estiver dentro dessa tag se torna clicavel-->
-                        <figure>
-                            <img src="lasanha.jpg" width="30%" height="25%" alt="prato z">
-                            <figcaption>vegano</figcaption>
-                        </figure>
-                        <h3>Lasanha vegana</h3>
-                        <span>R$ 18,90</span>
-                    </a>
-                </li>
-            </ul>
+            <div class="destaques">
+                <h2>Destaques</h2>
+                <ul>
+                    <li>
+                        <a href=""> <!--tudo o que estiver dentro dessa tag se torna clicavel-->
+                            <figure>
+                                <img src="hamburguer.jpeg" width="30%" height="30%" alt="prato x">
+                                <figcaption>vegano</figcaption>
+                            </figure>
+                            <h3>Hamburguer vegano</h3>
+                            <span>R$ 21,90</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""> <!--tudo o que estiver dentro dessa tag se torna clicavel-->
+                            <figure>
+                                <img src="sopa.webp" width="30%" height="30%" alt="prato y">
+                                <figcaption>vegano</figcaption>
+                            </figure>
+                            <h3>Sopa de legumes</h3>
+                            <span>R$ 19,90</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""> <!--tudo o que estiver dentro dessa tag se torna clicavel-->
+                            <figure>
+                                <img src="lasanha.jpg" width="30%" height="25%" alt="prato z">
+                                <figcaption>vegano</figcaption>
+                            </figure>
+                            <h3>Lasanha vegana</h3>
+                            <span>R$ 18,90</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
 
         <!--SOBREMESAS-->
@@ -91,26 +94,24 @@
                     <div>
                         <a href="">
                             <h3>Brigadeiro vegano</h3>
-                            <a></a>
                             <figure>
                                 <img src="brigadeiro.jpg" width="30%" height="30%" alt="nome da sobremesa">
                                 <figcaption>Brigadeiro 100% vegano</figcaption>
                             </figure>
-                            <span>R$ 18,90</span>
                         </a>
+                            <span>R$ 18,90</span>
                     </div>
                 </li>
 
                     <div>
                         <a href="">
                             <h3>Sorvete vegano</h3>
-                            <a></a>
                             <figure>
                                 <img src="sorvete.jpg" width="30%" height="30%" alt="nome da sobremesa 2">
                                 <figcaption>Sorvete 100% vegano</figcaption>
                             </figure>
-                            <span>R$ 18,90</span>
                         </a>
+                            <span>R$ 18,90</span>
                     </div>
                 </li>
             </ul>
