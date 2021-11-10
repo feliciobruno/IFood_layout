@@ -30,12 +30,12 @@ div {
 
 .cabecalho{
     background-color: rgb(241, 241, 241);
-    border: 1px solid rgb(200, 201, 202);
-    border-bottom: 1px solid;
+    display: flex;
+    
 }
 .cabecalho > .container{
     display: flex;
-    align-items: center;
+   
 }
 .cabecalho_logo{}
 .cabecalho_logo > figure{}
