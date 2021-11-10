@@ -9,18 +9,13 @@
 </head>
 <body>
     <!--PARTE SUPERIOR DO SITE: LOGO E NOME DO RESTAURANTE -->
-    <header class="cabeçalho">
+    <header class="cabecalho">
         <div class="container">
-            <div class="cabeçalho_logo">
-            <figure>
-                <img src="ifoodlogo.jpg" width="15%" height="15%" alt="logo ifood">
-            </figure>
-            <h1>Conheça o melhor sushi do Rio de janeiro.</h1>
-            </div>
-
-            <div class="cabeçalho_sushi">
-                <img src="japones.jpg" width="40%" height="40%" alt="restaurante Kenzie ifood">
-                <figcaption>Conheça o sushi que ganhou o prêmio de melhor sushi da cidade!</figcaption>
+            <div class="cabecalho_logo">
+                <figure>
+                    <img src="ifoodlogo.jpg" width="15%" height="15%" alt="logo ifood">
+                </figure>
+                <h1>Conheça o melhor sushi do Rio de janeiro.</h1>
             </div> 
         </div>
     </header>
@@ -31,13 +26,18 @@
         <!--SEÇÃO INFORMAÇÕES DO RESTAURANTE-->
         <section class="secaoinforestaurante">
             <div class="container">
+                <div class="cabecalho_sushi">
+                    <img src="japones.jpg" width="40%" height="40%" alt="restaurante Kenzie ifood">
+                    <figcaption>Conheça o sushi que ganhou o prêmio de melhor sushi da cidade!</figcaption>
+                </div>
                 <div class="secaoinforestaurante_secao">
                     <h1 class="secaorestaurante_nomerestaurante">Restaurante Kenzie, o melhor do Ifood</h1>
-                    <figure>
+                    <figure class="secaoinforestaurante_imgrestaurante">
                         <img src="restaurante.jpg" width="40%" height="40%" alt="imagem do restaurante Kenzie">
                         <figcaption>Restaurante Kenzie fica Localizado no Alto da Boa Vista, há mais de 10 anos no mercado</figcaption>
                     </figure> 
                 </div>
+            
             </div>
             <div class="secaoinforestaurante_">
                 <button>  <!--serve para adicionar um botão-->
@@ -48,38 +48,38 @@
         </section>
 
         <!--PRATOS QUENTES EM DESTAQUE-->
-        <section>
+        <section class="destaquespratosquentes">
             <div class="destaques">
-                <h2>Destaques</h2>
-                <ul>
-                    <li>
+                <h2 class="destaquestitulo">Destaques</h2>
+                <ul class="destaqueslistapratos">
+                    <li class="destaquessublista">
                         <a href=""> <!--tudo o que estiver dentro dessa tag se torna clicavel-->
-                            <figure>
+                            <figure class="destaqueimagem">
                                 <img src="hamburguer.jpeg" width="30%" height="30%" alt="prato x">
                                 <figcaption>vegano</figcaption>
                             </figure>
-                            <h3>Hamburguer vegano</h3>
-                            <span>R$ 21,90</span>
+                            <h3 class="destaquestitulo2">Hamburguer vegano</h3>
+                            <span class="destaquespreco">R$ 21,90</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="destaquessublista>
                         <a href=""> <!--tudo o que estiver dentro dessa tag se torna clicavel-->
-                            <figure>
+                            <figure class="destaqueimagem">
                                 <img src="sopa.webp" width="30%" height="30%" alt="prato y">
                                 <figcaption>vegano</figcaption>
                             </figure>
-                            <h3>Sopa de legumes</h3>
-                            <span>R$ 19,90</span>
+                            <h3 class="destaquestitulo2">Sopa de legumes</h3>
+                            <span class="destaquespreco">R$ 19,90</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="destaquessublista>
                         <a href=""> <!--tudo o que estiver dentro dessa tag se torna clicavel-->
-                            <figure>
+                            <figure class="destaqueimagem">
                                 <img src="lasanha.jpg" width="30%" height="25%" alt="prato z">
                                 <figcaption>vegano</figcaption>
                             </figure>
-                            <h3>Lasanha vegana</h3>
-                            <span>R$ 18,90</span>
+                            <h3 class="destaquestitulo2">Lasanha vegana</h3>
+                            <span class="destaquespreco">R$ 18,90</span>
                         </a>
                     </li>
                 </ul>
@@ -87,14 +87,14 @@
         </section>
 
         <!--SOBREMESAS-->
-        <section>
+        <section class="secaosobremesas">
             <h2>SOBREMESAS</h2>
-            <ul>
-                <li>
-                    <div>
+            <ul class="secaosobremesaslista">
+                <li class="secaosobremesassublista">
+                    <div class="secaosobremesadiv">
                         <a href="">
-                            <h3>Brigadeiro vegano</h3>
-                            <figure>
+                            <h3 class="secaosobremesastitulo">Brigadeiro vegano</h3>
+                            <figure class="secaosobremesasimagem">
                                 <img src="brigadeiro.jpg" width="30%" height="30%" alt="nome da sobremesa">
                                 <figcaption>Brigadeiro 100% vegano</figcaption>
                             </figure>
@@ -103,10 +103,10 @@
                     </div>
                 </li>
 
-                    <div>
+                    <div class="secaosobremesadiv">
                         <a href="">
-                            <h3>Sorvete vegano</h3>
-                            <figure>
+                            <h3 class="secaosobremesastitulo">Sorvete vegano</h3>
+                            <figure class="secaosobremesasimagem">
                                 <img src="sorvete.jpg" width="30%" height="30%" alt="nome da sobremesa 2">
                                 <figcaption>Sorvete 100% vegano</figcaption>
                             </figure>
