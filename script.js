@@ -1,7 +1,7 @@
 const listaPratos = [
     {
         id: 0,
-        nome: 'Combo hamburguer + batata frita 1',
+        nome: 'Hamburguer veg',
         descricao: 'Hamburguer com batata frita',
         preco: 21.15,
         categoria: 'destaques',
@@ -13,7 +13,7 @@ const listaPratos = [
         descricao: 'Hamburguer com batata frita',
         preco: 21.25,
         categoria: 'destaques',
-        imagem: './assets/img/produto.png'
+        imagem: './assets/img/produto.png',
     },
     {
         id: 2,
