@@ -5,7 +5,7 @@ const listaPratos = [
         descricao: 'Hamburguer',
         preco: 21.15,
         categoria: 'destaques',
-        imagem: '.IFood_layout/assets/img/produto.png',
+        imagem: './assets/img/produto.png',
     },
     {
         id: 1,
@@ -13,7 +13,7 @@ const listaPratos = [
         descricao: 'salada',
         preco: 20.25,
         categoria: 'destaques',
-        imagem: '.ifood layout/IFood_layout/assets/img/produto1.png',
+        imagem: './assets/img/produto1.png',
     },
     {
         id: 2,
@@ -34,14 +34,14 @@ const listaPratos = [
     {
         id: 4,
         nome: 'Brownie de chocolate 2',
-        descricao: 'O clássico brownie para quem ama um docinho de sobremesa.',
+        descricao: 'O clássico brownie para quem ama  sobremesa.',
         preco: 45.90,
         categoria: 'sobremesas',
         imagem: './assets/img/sobremesa.png'
     },
     {
         id: 5,
-        nome: 'Brownie de chocolate Nova Sobremesa',
+        nome: 'Brownie de chocolate',
         descricao: 'O clássico brownie para quem ama um docinho de sobremesa.',
         preco: 100.90,
         categoria: 'sobremesas',

@@ -1,51 +1,51 @@
 const listaPratos = [
     {
         id: 0,
-        nome: 'Combo hamburguer + batata frita 1',
-        descricao: 'Hamburguer com batata frita',
-        preco: 21.15,
+        nome: 'Hamburguer de cogumelos',
+        descricao: 'Com molho especial, pão sem glúten',
+        preco: 22.90,
         categoria: 'destaques',
         imagem: './assets/img/produto.png'
     },
     {
         id: 1,
-        nome: 'Combo hamburguer + batata frita 2',
-        descricao: 'Hamburguer com batata frita',
-        preco: 21.25,
+        nome: 'Hummus Israelense',
+        descricao: 'Com avocado e tomates',
+        preco: 21.90,
         categoria: 'destaques',
-        imagem: './assets/img/produto.png'
+        imagem: './assets/img/produto1.png'
     },
     {
         id: 2,
-        nome: 'Combo hamburguer + batata frita 3',
-        descricao: 'Hamburguer com batata frita',
+        nome: 'Sucos Detox 400ml',
+        descricao: 'vários sabores.',
         preco: 19.90,
         categoria: 'destaques',
-        imagem: './assets/img/produto.png'
+        imagem: './assets/img/produto2.png'
     },
     {
         id: 3,
-        nome: 'Brownie de chocolate 1',
-        descricao: 'O clássico brownie para quem ama um docinho de sobremesa.',
+        nome: 'Brownie Vegano',
+        descricao: 'Brownie zero lactose mas com o sabor que você já conhece',
         preco: 15.90,
         categoria: 'sobremesas',
-        imagem: './assets/img/sobremesa.png'
+        imagem: './assets/img/brownie.png'
     },
     {
         id: 4,
-        nome: 'Brownie de chocolate 2',
-        descricao: 'O clássico brownie para quem ama um docinho de sobremesa.',
-        preco: 45.90,
+        nome: 'Cheasecake Vegano',
+        descricao: 'Sabor frutas vermelhas, com pedaços de frutas organicas',
+        preco: 25.90,
         categoria: 'sobremesas',
-        imagem: './assets/img/sobremesa.png'
+        imagem: './assets/img/cheasecake.png'
     },
     {
         id: 5,
-        nome: 'Brownie de chocolate Nova Sobremesa',
-        descricao: 'O clássico brownie para quem ama um docinho de sobremesa.',
-        preco: 100.90,
+        nome: 'Sorvete de Castanha de Caju Vegano',
+        descricao: 'Experimente nosso tradicional sorvete caseiro, zero lactose',
+        preco: 49.90,
         categoria: 'sobremesas',
-        imagem: './assets/img/sobremesa.png'
+        imagem: './assets/img/sorvete.png'
     }
 ];
 
