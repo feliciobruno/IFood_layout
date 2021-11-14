@@ -5,15 +5,15 @@ const listaPratos = [
         descricao: 'Hamburguer',
         preco: 21.15,
         categoria: 'destaques',
-        imagem: '.assets/img/salada.png',
+        imagem: '.IFood_layout/assets/img/produto.png',
     },
     {
         id: 1,
         nome: 'salada',
         descricao: 'salada',
-        preco: 21.25,
+        preco: 20.25,
         categoria: 'destaques',
-        imagem: './assets/img/salada.png',
+        imagem: '.ifood layout/IFood_layout/assets/img/produto1.png',
     },
     {
         id: 2,
@@ -21,7 +21,7 @@ const listaPratos = [
         descricao: 'Hamburguer com batata frita',
         preco: 20.90,
         categoria: 'destaques',
-        imagem: ''
+        imagem: './assets/img/produto2.png'
     },
     {
         id: 3,
