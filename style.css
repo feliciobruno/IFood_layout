@@ -39,6 +39,7 @@ input, button{
 
 .cabecalho__logoIfood{
     margin-right: 60px;
+
 }
 .cabecalho__logoIfood > figure{}
 .cabecalho__logoIfood > figure > img{
@@ -55,8 +56,8 @@ input, button{
 .cabecalho__fundoImagem{
     background-color: #3fea1d;
     border-radius: 100%;
-    width: 50px;
-    height: 50px;
+    width: 10px;
+    height: 10px;
     padding-top: 0px;
     margin-right: 16px;
 }
@@ -85,20 +86,6 @@ main{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
-}
-
-.secaoInfoRestaurante__logoRestaurante{
-    background-color: #0000FF;
-    display: inline-block;
-    width: 45px;
-    height: 45px;
-    text-align: center;
-    border-radius: 100%;
-    padding-top: 8px;
-    margin-right: 20px;
-}
-.secaoInfoRestaurante__logoRestaurante > img{
-    width: 25px;
 }
 .secaoInfoRestaurante__logoRestaurante > figcaption{
     display: none;
