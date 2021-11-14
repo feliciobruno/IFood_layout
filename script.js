@@ -5,7 +5,7 @@ const listaPratos = [
         descricao: 'Hamburguer com batata frita',
         preco: 21.15,
         categoria: 'destaques',
-        imagem: './assets/img/produto.png'
+        imagem: './assets/img/hamburguer.png'
     },
     {
         id: 1,
