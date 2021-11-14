@@ -145,7 +145,7 @@ main{
     border: 1px solid #e0e0e0;
     border-radius: 5px;
     padding-bottom: 15px;
-    box-shadow: 2px 5px 3px 0px #d2d2d2;
+    box-shadow: 2px 5px 3px 0px #00ff22;
 }
 .secaoPratosDestaque__itemPrato > a{
     color: #3E3E3E;

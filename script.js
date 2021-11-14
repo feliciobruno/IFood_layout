@@ -1,27 +1,27 @@
 const listaPratos = [
     {
         id: 0,
-        nome: 'Hamburguer veg',
-        descricao: 'Hamburguer com batata frita',
+        nome: 'Hamburguer',
+        descricao: 'Hamburguer',
         preco: 21.15,
         categoria: 'destaques',
-        imagem: './assets/img/hamburguer.png'
+        imagem: '.assets/img/salada.png',
     },
     {
         id: 1,
-        nome: 'Combo hamburguer + batata frita 2',
-        descricao: 'Hamburguer com batata frita',
+        nome: 'salada',
+        descricao: 'salada',
         preco: 21.25,
         categoria: 'destaques',
-        imagem: './assets/img/produto.png',
+        imagem: './assets/img/salada.png',
     },
     {
         id: 2,
         nome: 'Combo hamburguer + batata frita 3',
         descricao: 'Hamburguer com batata frita',
-        preco: 19.90,
+        preco: 20.90,
         categoria: 'destaques',
-        imagem: './assets/img/produto.png'
+        imagem: ''
     },
     {
         id: 3,
@@ -29,7 +29,7 @@ const listaPratos = [
         descricao: 'O clássico brownie para quem ama um docinho de sobremesa.',
         preco: 15.90,
         categoria: 'sobremesas',
-        imagem: './assets/img/sobremesa.png'
+        imagem: './assets/img/sucos.png'
     },
     {
         id: 4,
