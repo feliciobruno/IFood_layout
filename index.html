@@ -1,151 +1,126 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ifood</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!--PARTE SUPERIOR DO SITE: LOGO E NOME DO RESTAURANTE -->
-    <header class="cabecalho">
-        <div class="container">
-            <div class="cabecalho_logo">
-                <figure>
-                    <img src="ifoodlogo.png" width="15%" height="15%" alt="logo ifood">
-                </figure>
-                <figure>
-                    <img src="restauranteveg.jpg" width="15%" height="15%" alt="logo ifood">
-                </figure>
-            </div> 
-        </div>
-    </header>
+    
+    <!--  CABEÇA - CONFIGURAÇÕES -->
+    <head>
+        <meta charset="UTF-8">
+        <title>Projeto Ifood</title>
 
-    <!--ABAIXO DO CABEÇALHO: -->
-    <main>
+        <!-- RESET CSS -->
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+
+        <!-- FONTES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- STYLE -->
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+    </head>
+
+    <!-- CORPO - CONTEÚDO -->
+    <body>
         
-        <!--SEÇÃO INFORMAÇÕES DO RESTAURANTE-->
-        <section class="secaoinforestaurante">
+        <!-- CABEÇALHO -->
+        <header class="cabecalho" id="idCabecalho">
+
             <div class="container">
-                <div class="cabecalho_sushi">
-                    <img src="japones.jpg" width="40%" height="40%" alt="restaurante Kenzie ifood">
-                    <figcaption>Conheça o sushi que ganhou o prêmio de melhor sushi da cidade!</figcaption>
+
+                <div class="cabecalho__logoIfood">
+                    <figure>
+                        <img src="./assets/img/logo.png" alt="Logo Ifood">
+                        <figcaption>Logo</figcaption>
+                    </figure>
                 </div>
-                <div class="secaoinforestaurante_secao">
-                    <h1 class="secaorestaurante_nomerestaurante">Restaurante Kenzie, o melhor do Ifood</h1>
-                    <figure class="secaoinforestaurante_imgrestaurante">
-                        <img src="restaurante.jpg" width="40%" height="40%" alt="imagem do restaurante Kenzie">
-                        <figcaption>Restaurante Kenzie fica Localizado no Alto da Boa Vista, há mais de 10 anos no mercado</figcaption>
-                    </figure> 
+
+                <div class="cabecalho__restaurante">
+                    <div class="cabecalho__fundoImagem">
+                        <img src="./assets/img/pngwing.com.png"  alt="Restaurante">
+                    </div>
+                    <p>Restaurantes Veganos</p>
                 </div>
-            
+
             </div>
-            <div class="secaoinforestaurante_">
-                <button>  <!--serve para adicionar um botão-->
-                    <img src="botao.png" width="15" height="15" alt="botao de busca">
-                </button>
-                <input type="text"> <!--para dizer o que vai ser digitado na busca do botao (text, password, number...)-->
+
+        </header>
+
+        <main>
+
+            <!-- SEÇÃO INFORMAÇÕES DO RESTAURANTE -->
+            <section class="secaoInfoRestaurante">
+               
+                <div class="container">
+                    <!-- INFORMAÇÕES DO RESTAURANTE -->
+                    <div class="secaoInfoRestaurante__descricao">
+                        <figure class="secaoInfoRestaurante__logoRestaurante">
+                            <img src="./assets/img/logo-kenzie.png" alt="Kenzie Foods">
+                            <figcaption>Restaurante Kenzie Foods</figcaption>
+                        </figure>
+                        <h1 class="secaoInfoRestaurante__nomeRestaurante">Kenzie Foods</h1>
+                    </div>
+
+                    <!-- CAIXA DE BUSCA -->
+                    <div class="secaoInfoRestaurante__pesquisar">
+                        <button>
+                            <img src="./assets/img/lupa.png" alt="">
+                        </button>
+                        <input type="text" placeholder="Buscar no cardápio">
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- SEÇÃO PRATOS EM DESTAQUES -->
+            <section class="secaoPratosDestaque">
+                <div class="container">
+                    <h2 class="secaoPratosDestaque__titulo">Destaque</h2>
+                    
+                    <!-- LISTA DE PRATOS EM DESTAQUE -->
+                    <ul class="secaoPratosDestaque__listaPratos"></ul>
+                </div>
+            </section>
+
+            <div class="conteudoPrincipal">
+                <div class="container">
+                    <!-- SEÇÃO SOBREMESAS -->
+                    <section class="secaoSobremesas">
+                        <h2 class="secaoSobremesas__titulo">Sobremesas</h2>
+                        <ul class="secaoSobremesas__listaSobremesas">
+                           
+                        </ul>
+                    </section>
+
+                    <!-- SEÇÃO CARRINHO -->
+                    <section class="secaoCarrinho">
+                        <h2 class="secaoCarrinho__titulo">Carrinho</h2>
+
+                        <div class="secaoCarrinho__conteudo">
+                            <!-- LISTA DE ITENS NO CARRINHO -->
+                            <ul class="secaoCarrinho__listaItens">
+                                
+                            </ul>
+
+                            <!-- TOTAL -->
+                            <div class="secaoCarrinho__total">
+                                <p>Total</p>
+                                <span>0,00</span>
+                            </div>
+
+                            <div class="secaoCarrinho__formaPagamento">
+                                <button>Escolher forma de pagamento</button>
+                            </div>
+                        </div>
+
+                    </section>
+                </div>
             </div>
-        </section>
 
-        <!--PRATOS QUENTES EM DESTAQUE-->
-        <section class="destaquespratosquentes">
-            <div class="destaques">
-                <h2 class="destaquestitulo">Destaques</h2>
-                <ul class="destaqueslistapratos">
-                    <li class="destaquessublista">
-                        <a href=""> <!--tudo o que estiver dentro dessa tag se torna clicavel-->
-                            <figure class="destaqueimagem">
-                                <img src="hamburguer.jpeg" width="30%" height="30%" alt="prato x">
-                                <figcaption>vegano</figcaption>
-                            </figure>
-                            <h3 class="destaquestitulo2">Hamburguer vegano</h3>
-                            <span class="destaquespreco">R$ 21,90</span>
-                        </a>
-                    </li>
-                    <li class="destaquessublista>
-                        <a href=""> <!--tudo o que estiver dentro dessa tag se torna clicavel-->
-                            <figure class="destaqueimagem">
-                                <img src="sopa.webp" width="30%" height="30%" alt="prato y">
-                                <figcaption>vegano</figcaption>
-                            </figure>
-                            <h3 class="destaquestitulo2">Sopa de legumes</h3>
-                            <span class="destaquespreco">R$ 19,90</span>
-                        </a>
-                    </li>
-                    <li class="destaquessublista>
-                        <a href=""> <!--tudo o que estiver dentro dessa tag se torna clicavel-->
-                            <figure class="destaqueimagem">
-                                <img src="lasanha.jpg" width="30%" height="25%" alt="prato z">
-                                <figcaption>vegano</figcaption>
-                            </figure>
-                            <h3 class="destaquestitulo2">Lasanha vegana</h3>
-                            <span class="destaquespreco">R$ 18,90</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </section>
+        </main>
 
-        <!--SOBREMESAS-->
-        <section class="secaosobremesas">
-            <h2>SOBREMESAS</h2>
-            <ul class="secaosobremesaslista">
-                <li class="secaosobremesassublista">
-                    <div class="secaosobremesadiv">
-                        <a href="">
-                            <h3 class="secaosobremesastitulo">Brigadeiro vegano</h3>
-                            <figure class="secaosobremesasimagem">
-                                <img src="brigadeiro.jpg" width="30%" height="30%" alt="nome da sobremesa">
-                                <figcaption>Brigadeiro 100% vegano</figcaption>
-                            </figure>
-                        </a>
-                            <span>R$ 18,90</span>
-                    </div>
-                </li>
+        <script src="./assets/js/script.js"></script>
+    </body>
 
-                    <div class="secaosobremesadiv">
-                        <a href="">
-                            <h3 class="secaosobremesastitulo">Sorvete vegano</h3>
-                            <figure class="secaosobremesasimagem">
-                                <img src="sorvete.jpg" width="30%" height="30%" alt="nome da sobremesa 2">
-                                <figcaption>Sorvete 100% vegano</figcaption>
-                            </figure>
-                        </a>
-                            <span>R$ 18,90</span>
-                    </div>
-                </li>
-            </ul>
-        </section>
-
-        <!--SESSÃO CARRINHO-->
-        <section>
-            <h2>CARRINHO</h2>
-
-            <ul>
-                <li>
-                    <div>
-                    <h3>Hamburguer vegano</h3>
-                    <span>R$21,90</span>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                    <h3>Sorvete vegano</h3>
-                    <span>R$18,90</span>
-                    </div>
-                </li>
-            </ul>
-
-        </section>
-
-        <!--TOTAL-->
-        <div>
-            <p>
-                Total: R$ 40,80
-            </p>
-        </div>
-    </main>
-</body>
 </html>
+
