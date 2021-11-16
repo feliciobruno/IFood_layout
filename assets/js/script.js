@@ -17,7 +17,7 @@ const listaPratos = [
     },
     {
         id: 2,
-        nome: 'Sucos Detox 400ml',
+        nome: 'Sucos Detox 350ml',
         descricao: 'vários sabores.',
         preco: 19.90,
         categoria: 'destaques',
