@@ -11,7 +11,7 @@ const listaPratos = [
         id: 1,
         nome: 'salada',
         descricao: 'salada',
-        preco: 20.25,
+        preco: 20.50,
         categoria: 'destaques',
         imagem: './assets/img/produto1.png',
     },
