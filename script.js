@@ -19,7 +19,7 @@ const listaPratos = [
         id: 2,
         nome: 'Combo hamburguer + batata frita 3',
         descricao: 'Hamburguer com batata frita',
-        preco: 20.90,
+        preco: 21.90,
         categoria: 'destaques',
         imagem: './assets/img/produto2.png'
     },
